@@ -1,0 +1,28 @@
+Criar um projeto utilizando obrigatoriamente os conteúdos a seguir:
+
+- Node.js;
+- Express.js;
+- HTML;
+- CSS;
+- JavaScript;
+
+O projeto deve conter 3 páginas: home, cadastro e contato, criar informações e conteúdos sobre cada uma das páginas. Criar as rotas de forma correta utilizando o Express.
+
+Página home deve conter: 
+- Título;
+- Imagens com informações sobre a página;
+- Links para as demais páginas, de preferência em menus, navbar, etc.
+
+Página cadastro deve conter: 
+- Título;
+- No mínimo 6 input type text com e sus respectivos labels;
+- Botão para chamar funções JavaScript
+
+Página contato deve conter: 
+- Título;
+- Informações de contato;
+- Formulário para envio de e-mail com 4 campos (Nome e e-email do usuário, assunto e conteúdo da mensagem);
+
+Antes de instalar o Express, executar no terminal o comando npm init na pasta raiz do projeto.
+
+Obs.: Os arquivos JavaScript devem conter apenas um alert() para validar o vínculo com o HTML;
