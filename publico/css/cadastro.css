@@ -1,3 +1,105 @@
-body{
-    background-color: rgb(238, 167, 202);
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: rgb(223, 70, 96);
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: rgb(253, 210, 110);
+    height: 100px;
+
+    font-family: sans-serif;
+    font-size: 18px;
+
+    margin-bottom: 5px;
+
+    box-shadow: rgba(4, 4, 5, 0.418) 0px 10px 10px -10px;
+}
+
+/* Inicio - transiçao do nav para branco ao descer a pagina */
+/* Funcionando junto ao Javascript - linhas 6-14 */
+nav.ativo {
+    background: white;
+    transition: 1s;
+}
+
+section{
+    width: 100%;
+}
+
+/* Fim*/
+
+footer {
+    background-color: rgb(237, 102, 117);
+    display: block;
+    height: 104px;
+
+    text-align: center;
+    color: #8B0000;
+
+    font-family: sans-serif;
+    font-size: 15px;
+
+    box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#logo {
+    justify-content: center;
+
+    padding-top: 23px;
+    padding-right: 545px;
+}
+
+#refs {
+    height: 100px;
+
+    padding-top: 37px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(154, 0, 57);
+
+    padding-right: 30px;
+
+    cursor: pointer;
+}
+
+img {
+    width: 105px;
+}
+
+.logo {
+    width: 100%;
+}
+
+h4 {
+    margin-top: 28px;
+    padding-bottom: 2px;
+}
+
+h5 {
+    font-size: 11px;
+}
+
+/* fim da base da pagina */
+
