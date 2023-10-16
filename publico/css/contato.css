@@ -110,7 +110,7 @@ h5 {
 
     background-color: rgb(253, 210, 110);
 
-    height: 500px;
+    height: 550px;
     width: 790px;
 
     margin: 40px auto 40px auto;
@@ -186,7 +186,7 @@ input, select{
 
     height: 30px;
 
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0px 10px 0px;
 
     box-shadow: rgba(50, 50, 93, 0.25) 1px 12px 5px -12px inset;
 }
@@ -198,8 +198,14 @@ input, select{
 }
 
 #ddd{
-    width: 30px;
+    width: 35px;
     margin: 5px 5px 0px 5px;
+    text-align: center;
+}
+
+#tel_cliente{
+    width: 100px;
+    text-align: center;
 }
 
 #btn{

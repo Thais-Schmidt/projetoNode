@@ -1,4 +1,4 @@
-alert(`Pagina Home`);
+// alert(`Pagina Home`);
 
 //Inicio - transiçao do nav para branco ao descer a pagina
 //Funcionando junto ao css - linhas 39-46
